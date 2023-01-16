@@ -1,0 +1,7 @@
+﻿  Ammunition.cpp
+  Field.cpp
+d:\проекты\space invaders\space invaders\field.cpp(37): warning C4305: аргумент: усечение из "double" в "float"
+d:\проекты\space invaders\space invaders\field.cpp(40): warning C4305: аргумент: усечение из "double" в "float"
+  Space Invaders.cpp
+  Создание кода...
+  Space Invaders.vcxproj -> D:\Проекты\Space Invaders\x64\Debug\Space Invaders.exe
