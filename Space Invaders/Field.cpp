@@ -18,6 +18,7 @@ Field::Field() : window(sf::VideoMode(WIDTH_W, HIGHT_W), "Space Invaders")
 
 void Field::run()
 {
+	window.setFramerateLimit(60);
 	while (window.isOpen()) {
 		processEvents();
 		update();
@@ -34,12 +35,12 @@ void Field::processEvents()
 	}
 	if (ship->getPosition().x > 0) {
 		if (sf::Keyboard::isKeyPressed(sf::Keyboard::Left)) {
-			ship->move(-0.1, 0);
+			ship->move(-3, 0);
 		}
 	}
 	if (ship->getPosition().x < WIDTH_W - 70) {
 		if (sf::Keyboard::isKeyPressed(sf::Keyboard::Right)) {
-			ship->move(0.1, 0);
+			ship->move(3, 0);
 		}
 	}
 	if (sf::Keyboard::isKeyPressed(sf::Keyboard::Space)) {

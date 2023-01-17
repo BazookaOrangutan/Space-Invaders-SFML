@@ -1,4 +1,2 @@
 ﻿  Field.cpp
-c:\users\взрослая академия\desktop\space-invaders-sfml-main\space invaders\field.cpp(37): warning C4305: аргумент: усечение из "double" в "float"
-c:\users\взрослая академия\desktop\space-invaders-sfml-main\space invaders\field.cpp(42): warning C4305: аргумент: усечение из "double" в "float"
   Space Invaders.vcxproj -> C:\Users\Взрослая академия\Desktop\Space-Invaders-SFML-main\x64\Debug\Space Invaders.exe
