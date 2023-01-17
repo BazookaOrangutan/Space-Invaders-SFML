@@ -7,7 +7,7 @@ class Ship
 	sf::Texture texture;
 public:
 	Ship();
-	void setPosition(float x, float y);
+	void move(float x, float y);
 	sf::Vector2f getPosition();
 	sf::Sprite getSprite();
 	void draw(sf::RenderWindow& window);

@@ -28,23 +28,25 @@ void Field::run()
 void Field::processEvents()
 {
 	while (window.pollEvent(event)) {
-		if (event.type == sf::Event::Closed) {
+		if (event.type == sf::Event::Closed || sf::Keyboard::isKeyPressed(sf::Keyboard::Escape)) {
 			window.close();
 		}
 	}
-	if (ship->getPosition().x > 0 || ship->getPosition().x < WIDTH_W) {
+	if (ship->getPosition().x > 0) {
 		if (sf::Keyboard::isKeyPressed(sf::Keyboard::Left)) {
-			ship->setPosition(-0.05, 0);
+			ship->move(-0.1, 0);
 		}
+	}
+	if (ship->getPosition().x < WIDTH_W - 70) {
 		if (sf::Keyboard::isKeyPressed(sf::Keyboard::Right)) {
-			ship->setPosition(0.05, 0);
+			ship->move(0.1, 0);
 		}
 	}
 	if (sf::Keyboard::isKeyPressed(sf::Keyboard::Space)) {
 		//bullet = new Ammunition(bulletTexture);
 		//bullet->setPosition(ship->getPosition().x, ship->getPosition().y - 20);
 	}
-}
+} 
 
 void Field::update()
 {

@@ -7,7 +7,7 @@ Ship::Ship()
 	sprite.setPosition(WIDTH_W / 2 - 25, HIGHT_W * 6 / 7);
 }
 
-void Ship::setPosition(float x, float y)
+void Ship::move(float x, float y)
 {
 	sprite.setPosition(sprite.getPosition().x + x, sprite.getPosition().y + y);
 }
