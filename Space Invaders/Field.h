@@ -17,16 +17,21 @@ class Field
 	sf::Text lifesText;
 	sf::Font font;
 	int characterSize = WIDTH_W * HIGHT_W / 15000; //size == 20
-
+	
+	std::string bulletTexture = "img\\bulletM.png";
+	std::string bombTexture;
 	Ammunition** bombs = nullptr;
-	Ammunition* bullet;
+	Ammunition* bullet = nullptr;
+	Enemy* en = nullptr;
 	Enemy** enemyes = nullptr;
 	Ship* ship;
 	sf::Sprite spriteShip;
-	std::string enemyesStr[3][5] = { {"0", "0", "0", "0", "0"},
-									 {"0", "0", "0", "0", "0"},
+	std::string enemyesStr[3][5] = { {"2", "2", "2", "2", "2"},
+									 {"2", "2", "2", "2", "2"},
 									 {"1", "1", "1", "1", "1"} };
-	Ammunition am;
+	std::string enemy1[2];
+	std::string enemy2[2];
+	
 public:
 	Field();
 	void run();
