@@ -6,7 +6,7 @@ Ammunition::Ammunition(std::string path)
 {
 	texture.loadFromFile(path);
 	sprite.setTexture(texture);
-	//sprite.setPosition(40, 40);
+	sprite.setTextureRect(sf::IntRect(0,0,35,35));
 }
 
 void Ammunition::setPosition(float x, float y)
@@ -28,3 +28,17 @@ void Ammunition::move(float x, float y)
 {
 	sprite.move(x, y);
 }
+
+sf::Sprite Ammunition::getSprite()
+{
+	return sprite;
+}
+
+sf::FloatRect Ammunition::getRect(sf::Vector2f v)
+{
+	rectX = v.x;
+	rectY = v.y;
+	return sf::FloatRect(rectX, rectY, a, a);
+}
+
+

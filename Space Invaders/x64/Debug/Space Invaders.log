@@ -1,2 +1,7 @@
 ﻿  Field.cpp
+c:\users\79613\onedrive\рабочий стол\space-invaders-sfml-main\space invaders\field.cpp(88): warning C4244: инициализация: преобразование "sf::Int64" в "float", возможна потеря данных
+c:\users\79613\onedrive\рабочий стол\space-invaders-sfml-main\space invaders\field.cpp(99): warning C4244: +=: преобразование "double" в "float", возможна потеря данных
+c:\users\79613\onedrive\рабочий стол\space-invaders-sfml-main\space invaders\field.cpp(140): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+  Space Invaders.cpp
+  Создание кода...
   Space Invaders.vcxproj -> C:\Users\79613\OneDrive\Рабочий стол\Space-Invaders-SFML-main\x64\Debug\Space Invaders.exe
