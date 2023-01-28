@@ -22,7 +22,18 @@ sf::Sprite Ship::getSprite()
 	return sprite;
 }
 
+void Ship::setSprite(std::string path)
+{
+	texture.loadFromFile(path);
+	sprite.setTexture(texture);
+}
+
 void Ship::draw(sf::RenderWindow& window)
 {
 	window.draw(sprite);
+}
+
+sf::FloatRect Ship::getRect(sf::Vector2f v)
+{
+	return sf::FloatRect(v.x - 20, v.y, a - 15, b);
 }

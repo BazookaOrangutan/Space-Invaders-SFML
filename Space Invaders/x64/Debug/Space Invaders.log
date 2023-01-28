@@ -1,7 +1,13 @@
 ﻿  Field.cpp
-c:\users\79613\onedrive\рабочий стол\space-invaders-sfml-main\space invaders\field.cpp(88): warning C4244: инициализация: преобразование "sf::Int64" в "float", возможна потеря данных
-c:\users\79613\onedrive\рабочий стол\space-invaders-sfml-main\space invaders\field.cpp(99): warning C4244: +=: преобразование "double" в "float", возможна потеря данных
-c:\users\79613\onedrive\рабочий стол\space-invaders-sfml-main\space invaders\field.cpp(140): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+c:\users\79613\onedrive\рабочий стол\space-invaders-sfml-main\space invaders\field.cpp(24): warning C4244: аргумент: преобразование "unsigned int" в "float", возможна потеря данных
+c:\users\79613\onedrive\рабочий стол\space-invaders-sfml-main\space invaders\field.cpp(30): warning C4244: аргумент: преобразование "unsigned int" в "float", возможна потеря данных
+c:\users\79613\onedrive\рабочий стол\space-invaders-sfml-main\space invaders\field.cpp(41): warning C4244: =: преобразование "sf::Int64" в "float", возможна потеря данных
+c:\users\79613\onedrive\рабочий стол\space-invaders-sfml-main\space invaders\field.cpp(84): warning C4804: <: небезопасное использование типа "bool" в операции
+c:\users\79613\onedrive\рабочий стол\space-invaders-sfml-main\space invaders\field.cpp(115): warning C4244: аргумент: преобразование "unsigned __int64" в "float", возможна потеря данных
+c:\users\79613\onedrive\рабочий стол\space-invaders-sfml-main\space invaders\field.cpp(196): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+c:\users\79613\onedrive\рабочий стол\space-invaders-sfml-main\space invaders\field.cpp(197): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+c:\users\79613\onedrive\рабочий стол\space-invaders-sfml-main\space invaders\field.cpp(198): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
   Space Invaders.cpp
+c:\users\79613\onedrive\рабочий стол\space-invaders-sfml-main\space invaders\space invaders.cpp(8): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
   Создание кода...
   Space Invaders.vcxproj -> C:\Users\79613\OneDrive\Рабочий стол\Space-Invaders-SFML-main\x64\Debug\Space Invaders.exe
